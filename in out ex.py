@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-
 # In[1]:
-
-
 a=[]
 for i in range(5):
     val = float(input("enter:"))
@@ -12,8 +9,6 @@ print(a)
 
 
 # In[1]:
-
-
 with open("sample-1.txt", "r") as fp:
     lines = fp.readlines()
 with open("new_file.txt", "w") as fp:
